@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.divCentro {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+}
+
+#imgeCitacao {
+    text-align: center;
+    object-fit: contain;
+    max-width: 400px;
+    margin: auto;
+}
+
+#imgeCitacao img{
+    width: 100%;
+}
+
+article{
+    margin: 1em 0;
+    text-align: justify;
+}
+
+aside img{
+    background-color: #9B75B0;
+    width: 100px;
+}
